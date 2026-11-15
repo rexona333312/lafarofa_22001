@@ -1,0 +1,367 @@
+{
+  "motion_graphics_target": 70,
+  "chunks": [
+    {
+      "id": 0,
+      "scene_id": 0,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 0,
+      "end": 2,
+      "duration": 2,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "carousel_group": "swiss_factors",
+        "caption": "ALPINE TERRAIN"
+      },
+      "files": [
+        "ref_11.jpg"
+      ],
+      "template": "evidence_board"
+    },
+    {
+      "id": 1,
+      "scene_id": 0,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 2,
+      "end": 4,
+      "duration": 2,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "carousel_group": "swiss_factors",
+        "caption": "MOUNTAIN TROOPS"
+      },
+      "files": [
+        "ref_29.jpg"
+      ],
+      "template": "evidence_board"
+    },
+    {
+      "id": 2,
+      "scene_id": 0,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 4,
+      "end": 6,
+      "duration": 2,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "carousel_group": "swiss_factors",
+        "caption": "EXILE"
+      },
+      "files": [
+        "portrait.jpg"
+      ],
+      "template": "evidence_board"
+    },
+    {
+      "id": 3,
+      "scene_id": 2,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 6,
+      "end": 12,
+      "duration": 6,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "value": "430,000",
+        "label": "MEN UNDER ARMS",
+        "layout": "card",
+        "start_frame": 30,
+        "arrival_frames": 18
+      },
+      "files": [
+        "ref_29.jpg"
+      ],
+      "template": "stat_callout"
+    },
+    {
+      "id": 4,
+      "scene_id": 3,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 12,
+      "end": 18,
+      "duration": 6,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "title": "MEN UNDER ARMS VS. POPULATION",
+        "unit": "people",
+        "items": [
+          {
+            "label": "MEN UNDER ARMS",
+            "value": 430000,
+            "display": "430,000",
+            "start_frame": 20
+          },
+          {
+            "label": "POPULATION",
+            "value": 4000000,
+            "display": "4 million",
+            "start_frame": 70
+          }
+        ]
+      },
+      "files": [
+        "ref_11.jpg"
+      ],
+      "template": "data_comparison"
+    },
+    {
+      "id": 5,
+      "scene_id": 4,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 18,
+      "end": 24,
+      "duration": 6,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "focus_rect": [
+          0.14,
+          0.3,
+          0.7,
+          0.07
+        ],
+        "zoom_start_frame": 30,
+        "highlight_start_frame": 65,
+        "mark": "highlight",
+        "caption": "DETAIL OF THE DOCUMENT"
+      },
+      "files": [
+        "document.jpg"
+      ],
+      "template": "document_focus"
+    },
+    {
+      "id": 6,
+      "scene_id": 5,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 24,
+      "end": 30,
+      "duration": 6,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "name": "THOMAS MANN",
+        "description": "German writer\nExile in Switzerland",
+        "start_frame": 0
+      },
+      "files": [
+        "portrait.jpg"
+      ],
+      "template": "portrait_profile"
+    },
+    {
+      "id": 7,
+      "scene_id": 6,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 30,
+      "end": 36,
+      "duration": 6,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "geo": {
+          "mode": "flat",
+          "title": "SWITZERLAND",
+          "camera": [
+            {
+              "frame": 0,
+              "center": [
+                8.2,
+                46.8
+              ],
+              "zoom": 5.8,
+              "pitch": 0,
+              "bearing": -4
+            },
+            {
+              "frame": 179,
+              "center": [
+                8.2,
+                46.8
+              ],
+              "zoom": 6.7,
+              "pitch": 0,
+              "bearing": 2
+            }
+          ],
+          "highlights": [
+            {
+              "country": "CHE",
+              "start_frame": 20,
+              "color": "#e5c65f"
+            }
+          ],
+          "markers": [
+            {
+              "position": [
+                7.4474,
+                46.948
+              ],
+              "label": "Bern",
+              "start_frame": 55
+            }
+          ],
+          "routes": [
+            {
+              "points": [
+                [
+                  7.4474,
+                  46.948
+                ],
+                [
+                  8.5417,
+                  47.3769
+                ]
+              ],
+              "label": "Zurich",
+              "start_frame": 85
+            }
+          ],
+          "regions": []
+        }
+      },
+      "files": [
+        "ref_11.jpg"
+      ],
+      "template": "map_annotations"
+    },
+    {
+      "id": 8,
+      "scene_id": 7,
+      "type": "photo",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 36,
+      "end": 42,
+      "duration": 6,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "geo": {
+          "mode": "terrain",
+          "title": "THE ALPS / GOTTHARD",
+          "camera": [
+            {
+              "frame": 0,
+              "center": [
+                8.56,
+                46.56
+              ],
+              "zoom": 8.2,
+              "pitch": 45,
+              "bearing": -18
+            },
+            {
+              "frame": 179,
+              "center": [
+                8.56,
+                46.56
+              ],
+              "zoom": 10,
+              "pitch": 62,
+              "bearing": 16
+            }
+          ],
+          "highlights": [],
+          "markers": [
+            {
+              "position": [
+                8.565,
+                46.557
+              ],
+              "label": "Gotthard Pass",
+              "start_frame": 25
+            }
+          ],
+          "routes": [],
+          "regions": []
+        }
+      },
+      "files": [
+        "ref_11.jpg"
+      ],
+      "template": "map_geographic"
+    },
+    {
+      "id": 9,
+      "scene_id": 8,
+      "type": "video",
+      "query": "Switzerland",
+      "search_mode": "broll",
+      "start": 42,
+      "end": 46,
+      "duration": 4,
+      "preset": "PHOTO_STATIC",
+      "params": {
+        "value": "26",
+        "label": "CANTONS",
+        "layout": "overlay",
+        "start_frame": 45
+      },
+      "files": [
+        "skiers.mp4"
+      ],
+      "template": "stat_callout"
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 2,
+      "end": 2
+    },
+    {
+      "kind": "cut",
+      "start": 4,
+      "end": 4
+    },
+    {
+      "kind": "cut",
+      "start": 6,
+      "end": 6
+    },
+    {
+      "kind": "cut",
+      "start": 12,
+      "end": 12
+    },
+    {
+      "kind": "cut",
+      "start": 18,
+      "end": 18
+    },
+    {
+      "kind": "cut",
+      "start": 24,
+      "end": 24
+    },
+    {
+      "kind": "cut",
+      "start": 30,
+      "end": 30
+    },
+    {
+      "kind": "cut",
+      "start": 36,
+      "end": 36
+    },
+    {
+      "kind": "cut",
+      "start": 42,
+      "end": 42
+    }
+  ],
+  "text_cues": [],
+  "audio_tracks": []
+}

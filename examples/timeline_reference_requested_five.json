@@ -1,0 +1,252 @@
+{
+  "chunks": [
+    {
+      "id": 0,
+      "scene_id": "reference_171",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "text_highlight_split",
+      "params": {
+        "text": "not common this far south",
+        "caption": "cooler months",
+        "text_start": 21,
+        "arrival_frames": 12,
+        "highlight_start": 36,
+        "highlight_frames": 20,
+        "split_start": 58,
+        "split_frames": 60,
+        "caption_start": 116,
+        "caption_frames": 12
+      },
+      "query": "illustration.jpg",
+      "search_mode": "broll",
+      "text": "and they're not exactly common that far south off the New South Wales coast in the cooler months.",
+      "start": 0.0,
+      "end": 4.733333333333333,
+      "duration": 4.733333333333333,
+      "files": [
+        "illustration.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "scene_id": "reference_185",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "split_verdict",
+      "params": {
+        "comparison_group": "recognized_vs_described",
+        "label": "whale",
+        "archival": true,
+        "left_start": 6,
+        "left_frames": 34,
+        "split_start": 6,
+        "split_frames": 34,
+        "right_start": 177,
+        "right_frames": 18,
+        "left_label_start": 24,
+        "label_frames": 12,
+        "right_label_start": 195,
+        "right_label_frames": 10
+      },
+      "query": "version_one.jpg",
+      "search_mode": "broll",
+      "text": "Whales are the one large animal an Australian fisherman in 1918 would absolutely recognize. They described a shark.",
+      "start": 4.733333333333333,
+      "end": 8.3,
+      "duration": 3.566666666666667,
+      "files": [
+        "version_one.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "scene_id": "reference_185",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "split_verdict",
+      "params": {
+        "comparison_group": "recognized_vs_described",
+        "label": "shark",
+        "archival": true
+      },
+      "query": "version_two.jpg",
+      "search_mode": "broll",
+      "text": "Whales are the one large animal an Australian fisherman in 1918 would absolutely recognize. They described a shark.",
+      "start": 8.3,
+      "end": 11.9,
+      "duration": 3.6,
+      "files": [
+        "version_two.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "scene_id": "reference_188",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "bullet_panel",
+      "params": {
+        "style": "report",
+        "title": "three scientific constraints",
+        "panel_start": 0,
+        "arrival_frames": 18,
+        "items": [
+          {
+            "text": "no surviving fossil record",
+            "start_frame": 23,
+            "reveal_frames": 32
+          },
+          {
+            "text": "enormous food requirement",
+            "start_frame": 133,
+            "reveal_frames": 32
+          },
+          {
+            "text": "expected biological traces",
+            "start_frame": 185,
+            "reveal_frames": 30
+          }
+        ]
+      },
+      "query": "field.jpg",
+      "search_mode": "broll",
+      "text": "There's no fossil record of any surviving population, and a predator that size would need enormous amounts of food and would leave traces we'd expect to find.",
+      "start": 11.9,
+      "end": 19.733333333333334,
+      "duration": 7.833333333333333,
+      "files": [
+        "field.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "scene_id": "reference_164",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "detail_callouts",
+      "params": {
+        "annotations": [
+          {
+            "label": "largest fish alive",
+            "anchor": [
+              0.47,
+              0.63
+            ],
+            "label_point": [
+              0.79,
+              0.82
+            ],
+            "start_frame": 35,
+            "draw_frames": 12
+          },
+          {
+            "label": "pale markings",
+            "anchor": [
+              0.53,
+              0.28
+            ],
+            "label_point": [
+              0.26,
+              0.16
+            ],
+            "start_frame": 79,
+            "draw_frames": 12
+          },
+          {
+            "label": "spotted skin",
+            "anchor": [
+              0.3,
+              0.4
+            ],
+            "label_point": [
+              0.22,
+              0.78
+            ],
+            "start_frame": 93,
+            "draw_frames": 12
+          }
+        ]
+      },
+      "query": "feature.jpg",
+      "search_mode": "broll",
+      "text": "It's enormous, the largest fish alive, and it can be pale and spotted.",
+      "start": 19.733333333333334,
+      "end": 23.366666666666667,
+      "duration": 3.6333333333333333,
+      "files": [
+        "feature.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "scene_id": "reference_190",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "lower_third_contrast",
+      "params": {
+        "heading": "ordinary explanations",
+        "heading_start": 41,
+        "arrival_frames": 24,
+        "archival": true,
+        "segments": [
+          {
+            "text": "fit part of the account",
+            "start_frame": 70,
+            "reveal_frames": 29,
+            "highlight": true
+          },
+          {
+            "text": "and",
+            "start_frame": 102,
+            "reveal_frames": 3
+          },
+          {
+            "text": "break on another part",
+            "start_frame": 105,
+            "reveal_frames": 28,
+            "highlight": true
+          }
+        ]
+      },
+      "query": "fishermen.jpg",
+      "search_mode": "broll",
+      "text": "tell you this. Each of the ordinary explanations fits part of the account and breaks on another part.",
+      "start": 23.366666666666667,
+      "end": 28.133333333333333,
+      "duration": 4.766666666666667,
+      "files": [
+        "fishermen.jpg"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 4.733333333333333,
+      "end": 4.733333333333333
+    },
+    {
+      "kind": "cut",
+      "start": 8.3,
+      "end": 8.3
+    },
+    {
+      "kind": "cut",
+      "start": 11.9,
+      "end": 11.9
+    },
+    {
+      "kind": "cut",
+      "start": 19.733333333333334,
+      "end": 19.733333333333334
+    },
+    {
+      "kind": "cut",
+      "start": 23.366666666666667,
+      "end": 23.366666666666667
+    }
+  ],
+  "text_cues": [],
+  "audio_tracks": []
+}

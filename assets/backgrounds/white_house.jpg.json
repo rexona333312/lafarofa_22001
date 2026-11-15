@@ -1,0 +1,9 @@
+{
+  "description": "White House — фон для политических персонажей",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/The_White_House_South_Portico.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_White_House_South_Portico.jpg",
+  "author": "Trendscope / Simon Gagner",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "modifications": "Crop to 16:9, grayscale, darkening, blur, animated scaling"
+}

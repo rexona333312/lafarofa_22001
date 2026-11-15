@@ -1,0 +1,179 @@
+{
+  "chunks": [
+    {
+      "id": 0,
+      "scene_id": "speech_7_9s",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "bullet_panel",
+      "params": {
+        "style": "torn_sidebar",
+        "side": "right",
+        "timing_mode": "speech",
+        "title": "what witnesses reported",
+        "archival": true,
+        "panel_start": 0,
+        "arrival_frames": 34,
+        "title_start": 6,
+        "title_frames": 12,
+        "items": [
+          {
+            "text": "experienced cray fishermen",
+            "start_frame": 23,
+            "reveal_frames": 35
+          },
+          {
+            "text": "a pale shape and heaving water",
+            "start_frame": 74,
+            "reveal_frames": 59
+          },
+          {
+            "text": "a head compared to a roof",
+            "start_frame": 150,
+            "reveal_frames": 29
+          }
+        ]
+      },
+      "query": "witnesses.jpg",
+      "files": [
+        "witnesses.jpg"
+      ],
+      "search_mode": "broll",
+      "text": "a group of experienced cray fishermen, a pale shape, water that heaved, a head compared to a roof, a length they could not agree on",
+      "start": 0.0,
+      "end": 7.9,
+      "duration": 7.9
+    },
+    {
+      "id": 1,
+      "scene_id": "stretch_3s",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "bullet_panel",
+      "params": {
+        "style": "torn_sidebar",
+        "side": "right",
+        "timing_mode": "stretch",
+        "title": "what witnesses reported",
+        "archival": true,
+        "items": [
+          {
+            "text": "experienced cray fishermen"
+          },
+          {
+            "text": "a pale shape and heaving water"
+          },
+          {
+            "text": "a head compared to a roof"
+          }
+        ]
+      },
+      "query": "witnesses.jpg",
+      "files": [
+        "witnesses.jpg"
+      ],
+      "search_mode": "broll",
+      "text": "a group of experienced cray fishermen, a pale shape, water that heaved, a head compared to a roof, a length they could not agree on",
+      "start": 7.9,
+      "end": 10.9,
+      "duration": 3.0
+    },
+    {
+      "id": 2,
+      "scene_id": "stretch_7s",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "bullet_panel",
+      "params": {
+        "style": "torn_sidebar",
+        "side": "right",
+        "timing_mode": "stretch",
+        "title": "what witnesses reported",
+        "archival": true,
+        "items": [
+          {
+            "text": "experienced cray fishermen"
+          },
+          {
+            "text": "a pale shape and heaving water"
+          },
+          {
+            "text": "a head compared to a roof"
+          }
+        ]
+      },
+      "query": "witnesses.jpg",
+      "files": [
+        "witnesses.jpg"
+      ],
+      "search_mode": "broll",
+      "text": "a group of experienced cray fishermen, a pale shape, water that heaved, a head compared to a roof, a length they could not agree on",
+      "start": 10.9,
+      "end": 17.9,
+      "duration": 7.0
+    },
+    {
+      "id": 3,
+      "scene_id": "fast_hold_7s",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "bullet_panel",
+      "params": {
+        "style": "torn_sidebar",
+        "side": "right",
+        "timing_mode": "speech",
+        "title": "what witnesses reported",
+        "archival": true,
+        "items": [
+          {
+            "text": "experienced cray fishermen",
+            "start_frame": 18,
+            "reveal_frames": 9
+          },
+          {
+            "text": "a pale shape and heaving water",
+            "start_frame": 47,
+            "reveal_frames": 9
+          },
+          {
+            "text": "a head compared to a roof",
+            "start_frame": 76,
+            "reveal_frames": 9
+          }
+        ],
+        "panel_start": 0,
+        "arrival_frames": 13,
+        "title_start": 7,
+        "title_frames": 7
+      },
+      "query": "witnesses.jpg",
+      "files": [
+        "witnesses.jpg"
+      ],
+      "search_mode": "broll",
+      "text": "a group of experienced cray fishermen, a pale shape, water that heaved, a head compared to a roof, a length they could not agree on",
+      "start": 17.9,
+      "end": 24.9,
+      "duration": 7.0
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 7.9,
+      "end": 7.9
+    },
+    {
+      "kind": "cut",
+      "start": 10.9,
+      "end": 10.9
+    },
+    {
+      "kind": "cut",
+      "start": 17.9,
+      "end": 17.9
+    }
+  ],
+  "text_cues": [],
+  "audio_tracks": []
+}

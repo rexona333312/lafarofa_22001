@@ -1,0 +1,2 @@
+# Install in a separate WhisperX environment; the app uses WHISPERX_PYTHON.
+whisperx==3.8.6

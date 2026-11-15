@@ -1,0 +1,162 @@
+{
+  "chunks": [
+    {
+      "id": 0,
+      "type": "photo",
+      "duration": 5,
+      "start": 0,
+      "end": 5,
+      "query": "historical man writing at desk",
+      "search_mode": "broll",
+      "source_policy": [
+        "archive",
+        "editorial"
+      ],
+      "preset": "PHOTO_STATIC",
+      "files": [
+        "historical_clean.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "photo",
+      "duration": 4,
+      "start": 5,
+      "end": 9,
+      "query": "coastal cliffs sea",
+      "search_mode": "broll",
+      "source_policy": [
+        "archive",
+        "editorial"
+      ],
+      "preset": "PHOTO_STATIC",
+      "files": [
+        "coast_clean.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "photo",
+      "duration": 4,
+      "start": 9,
+      "end": 13,
+      "query": "coastal cliffs sea",
+      "search_mode": "broll",
+      "source_policy": [
+        "archive",
+        "editorial"
+      ],
+      "preset": "PHOTO_STATIC",
+      "files": [
+        "coast_clean.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "photo",
+      "duration": 7,
+      "start": 13,
+      "end": 20,
+      "query": "traditional wicker fishing trap",
+      "search_mode": "exact",
+      "source_policy": [
+        "archive",
+        "editorial"
+      ],
+      "preset": "PHOTO_STATIC",
+      "files": [
+        "fishing_trap.jpg"
+      ],
+      "template": "history_timeline",
+      "params": {
+        "year": 1918,
+        "from_year": 1913,
+        "label": "fishing trap",
+        "paper": "paper/paper1.jpg",
+        "scroll_frames": 72
+      },
+      "entity": "wicker fishing trap",
+      "entity_type": "object",
+      "editor_note_ru": "Демонстрация шкалы 1913 → 1918 по референсу; это не дата изобретения"
+    }
+  ],
+  "text_cues": [
+    {
+      "id": "T001",
+      "kind": "accent",
+      "template": "marker_highlight",
+      "renderer": "remotion",
+      "params": {
+        "color": "#ffffff",
+        "font_family": "coolvetica",
+        "position": "center",
+        "marker_delay_frames": 9,
+        "marker_frames": 33
+      },
+      "text": "they wrote every detail down",
+      "start": 0.4,
+      "end": 4.6,
+      "scene_start": 0.0,
+      "scene_end": 5.0,
+      "duration_frames": 126,
+      "audio": true,
+      "chunk_index": 0
+    },
+    {
+      "id": "T002",
+      "kind": "accent",
+      "template": "question_panel_bottom",
+      "renderer": "remotion",
+      "params": {
+        "color": "#ffffff",
+        "font_family": "coolvetica",
+        "position": "center"
+      },
+      "text": "was the size really the point?",
+      "start": 5.3,
+      "end": 8.7,
+      "scene_start": 5.0,
+      "scene_end": 9.0,
+      "duration_frames": 102,
+      "audio": true,
+      "chunk_index": 1
+    },
+    {
+      "id": "T003",
+      "kind": "accent",
+      "template": "question_panel_top",
+      "renderer": "remotion",
+      "params": {
+        "color": "#ffffff",
+        "font_family": "coolvetica",
+        "position": "center"
+      },
+      "text": "the evidence changed everything",
+      "start": 9.3,
+      "end": 12.7,
+      "scene_start": 9.0,
+      "scene_end": 13.0,
+      "duration_frames": 102,
+      "audio": true,
+      "chunk_index": 2
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 5,
+      "end": 5
+    },
+    {
+      "kind": "cut",
+      "start": 9,
+      "end": 9
+    },
+    {
+      "kind": "cut",
+      "start": 13,
+      "end": 13
+    }
+  ],
+  "audio_tracks": []
+}

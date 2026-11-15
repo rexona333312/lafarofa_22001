@@ -1,0 +1,8 @@
+{
+  "id": "BLUR_BG_CENTER",
+  "description": "Размытый фон и чёткое фото по центру с приближением",
+  "kind": "photo",
+  "layout": "blur",
+  "zoom_start": 0,
+  "zoom_end": 0.05
+}

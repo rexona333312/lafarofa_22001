@@ -1,0 +1,2 @@
+# Local CPU segmentation; no paid API. Install into the application's Python environment.
+rembg[cpu]==2.0.67

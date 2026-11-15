@@ -1,0 +1,8 @@
+{
+  "id": "PHOTO_SLOW_ZOOM_OUT",
+  "description": "Медленное отдаление",
+  "kind": "photo",
+  "layout": "full",
+  "zoom_start": 0.06,
+  "zoom_end": 0
+}

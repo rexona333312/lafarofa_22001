@@ -1,0 +1,52 @@
+# Local credentials and authentication
+.env
+.env.*
+!.env.example
+.npmrc
+.aws/
+.ssh/
+*.pem
+*.key
+cookies*.txt
+*cookies.txt
+
+# Installed dependencies and caches
+.venv*/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+*.log
+.serena/
+.claude/
+
+# Local projects, exports, backups, and working plans
+/output/
+/exports/
+/backups/
+/planning/
+/C:/
+/timeline*.json
+/preview*.mp4
+/3 temi.txt
+/task*.md
+
+# Downloaded map cache and render staging files
+assets/geodata/tile_cache/
+assets/remotion/paper_card/public/*
+!assets/remotion/paper_card/public/fonts/
+
+# Reference footage and analysis are local; retain runtime rules and catalog data
+/reference_analysis/*
+!/reference_analysis/avatar_format/
+/reference_analysis/avatar_format/*
+!/reference_analysis/avatar_format/avatar_editorial_rules.json
+!/reference_analysis/swiss_1019_20261019/
+/reference_analysis/swiss_1019_20261019/*
+!/reference_analysis/swiss_1019_20261019/clip_catalog.json

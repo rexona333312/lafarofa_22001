@@ -1,0 +1,18 @@
+{
+  "description": "Coolvetica oben rechts: Abonnieren Sie den Kanal / So unterstützen Sie unsere Arbeit. 34/27 px, 72 px rechter Rand; 0,8 s einblenden, 0,9 s ausblenden. Transparent, ohne Ton.",
+  "blend": "alpha",
+  "font": "coolvetica",
+  "font_sizes": [
+    34,
+    27
+  ],
+  "bbox": [
+    1447,
+    80,
+    1851,
+    145
+  ],
+  "duration": 6,
+  "fade_in": 0.8,
+  "fade_out": 0.9
+}

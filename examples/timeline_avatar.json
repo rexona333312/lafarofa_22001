@@ -1,0 +1,126 @@
+{
+  "video_mode": "ai_avatar",
+  "chunks": [
+    {
+      "id": 0,
+      "scene_id": 1,
+      "type": "video",
+      "query": "reference demonstration",
+      "search_mode": "broll",
+      "text": "Демонстрация композиции",
+      "editor_note_ru": "Тестовый ведущий из референса. Собственная ведущая загрузится позже.",
+      "template": "avatar_full",
+      "avatar": {
+        "clip_id": "avatar_demo",
+        "source_start": 0
+      },
+      "params": {
+        "avatar_width": 0.42,
+        "media_fit": "contain",
+        "zoom_start": 0,
+        "zoom_end": 0.03
+      },
+      "start": 0,
+      "end": 3,
+      "duration": 3,
+      "files": []
+    },
+    {
+      "id": 1,
+      "scene_id": 2,
+      "type": "photo",
+      "query": "reference demonstration",
+      "search_mode": "broll",
+      "text": "Демонстрация композиции",
+      "editor_note_ru": "Тестовый ведущий из референса. Собственная ведущая загрузится позже.",
+      "template": "avatar_left",
+      "avatar": {
+        "clip_id": "avatar_demo",
+        "source_start": 0
+      },
+      "params": {
+        "avatar_width": 0.42,
+        "media_fit": "contain",
+        "zoom_start": 0,
+        "zoom_end": 0.03
+      },
+      "start": 3,
+      "end": 6.5,
+      "duration": 3.5,
+      "files": [
+        "example.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "scene_id": 3,
+      "type": "photo",
+      "query": "reference demonstration",
+      "search_mode": "broll",
+      "text": "Демонстрация композиции",
+      "editor_note_ru": "Тестовый ведущий из референса. Собственная ведущая загрузится позже.",
+      "template": "avatar_right",
+      "avatar": {
+        "clip_id": "avatar_demo",
+        "source_start": 0
+      },
+      "params": {
+        "avatar_width": 0.42,
+        "media_fit": "contain",
+        "zoom_start": 0,
+        "zoom_end": 0.03
+      },
+      "start": 6.5,
+      "end": 10.5,
+      "duration": 4,
+      "files": [
+        "example.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "scene_id": 4,
+      "type": "video",
+      "query": "reference demonstration",
+      "search_mode": "broll",
+      "text": "Демонстрация композиции",
+      "editor_note_ru": "Тестовый ведущий из референса. Собственная ведущая загрузится позже.",
+      "template": "avatar_left",
+      "avatar": {
+        "clip_id": "avatar_demo",
+        "source_start": 0
+      },
+      "params": {
+        "avatar_width": 0.42,
+        "media_fit": "contain",
+        "zoom_start": 0,
+        "zoom_end": 0.03
+      },
+      "start": 10.5,
+      "end": 13.5,
+      "duration": 3,
+      "files": [
+        "example_video.mp4"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 3,
+      "end": 3
+    },
+    {
+      "kind": "cut",
+      "start": 6.5,
+      "end": 6.5
+    },
+    {
+      "kind": "cut",
+      "start": 10.5,
+      "end": 10.5
+    }
+  ],
+  "audio_tracks": [],
+  "text_cues": []
+}

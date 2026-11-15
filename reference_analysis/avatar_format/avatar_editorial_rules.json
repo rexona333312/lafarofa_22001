@@ -1,0 +1,135 @@
+{
+  "status": "CONNECTED_TO_AI_AVATAR_PLANNING_EXPORT",
+  "version": 2,
+  "date": "2026-10-05",
+  "references": [
+    {
+      "id": "avatar1",
+      "report": "avatar_format/FULL_REPORT.md",
+      "avatar_percent": 21.19168564356231,
+      "scene_count": 276,
+      "structure": "nine sequential explanatory chapters"
+    },
+    {
+      "id": "avatar2",
+      "report": "avatar2_format/FULL_REPORT.md",
+      "avatar_percent": 28.45026221691012,
+      "scene_count": 387,
+      "structure": "21-to-1 practical countdown"
+    }
+  ],
+  "scope": "Shared rules included in avatar-mode luna_input exports. Minimal mode selector, project clip library, full/left/right compositions, prompt manifest and manual image upload implemented. Circle and bulk ZIP mapping are not implemented.",
+  "planning_order": [
+    "Read the current voiceover and word timings, not reference captions or old embedded planner instructions.",
+    "Identify chapter structure and semantic spans: hook, claim, example, action, cause, consequence, comparison, number, verdict, transition.",
+    "Choose matching visuals for those spans, then avatar layout and concise graphics.",
+    "Assign voiceover-aligned durations and source offsets. Review acquired assets before finalizing framing.",
+    "Export AI-photo prompt manifest and check avatar reuse and duration-based 50/50 background mix."
+  ],
+  "profiles": {
+    "explanatory_visual": {
+      "reference": "avatar1",
+      "sequence": [
+        "claim",
+        "example",
+        "cause or comparison",
+        "concise explanatory graphic when needed",
+        "practical conclusion"
+      ],
+      "graphic_rule": "Use diagrams only when relations or processes need explanation; the first reference has about 10.9% whole graphic scenes, with additional overlays."
+    },
+    "countdown_practical": {
+      "reference": "avatar2",
+      "sequence": [
+        "chapter number and short heading",
+        "wrong action or misconception",
+        "object and mechanism",
+        "consequence",
+        "corrective action",
+        "bridge to next item"
+      ],
+      "graphic_rule": "Consistent chapter cards and a few number/range cards. The second reference has about 6.15% whole text-card scenes. Do not require faceless graphic quotas.",
+      "ordering": "Follow the script numbering and order. A countdown is optional, never imposed on every niche.",
+      "payoff": "Allow the promised final point more time if the script develops it; do not make chapters equal in duration."
+    }
+  },
+  "avatar": {
+    "purpose": "Full avatar for direct address, warning, judgment, and transitions; side panel for simultaneous explanation and example; optional circle when it leaves an illustration readable. Do not insert on a periodic timer.",
+    "proposed_default_coverage_target": 0.22,
+    "proposed_budget_range": [
+      0.2,
+      0.25
+    ],
+    "observed_reference_range": [
+      0.2119,
+      0.2845
+    ],
+    "coverage_is": "planning target, not a universal rule or implemented UI setting",
+    "panel_side": "left or right, selected consistently per project from image composition; do not mirror the source video to change sides",
+    "library": "3–5 ~10s clips of one woman wearing a niqab; mute clip audio, no lip sync; choose suitable trimmed intervals, vary clips and framing, avoid adjacent identical gestures; inspect loops before using; if an interval is too short cut to b-roll instead of freezing/stretching",
+    "hold_duration": "Follow the semantic span. Observed median scene duration 3.4–3.5s is not a fixed template length."
+  },
+  "broll": {
+    "selection": "Illustrate the action and the relationship in the sentence, not just a shared noun. A mechanism may require full-screen detail; a warning may require a visible consequence.",
+    "technical_match": "Inspect downloaded/generated assets. Automatic/manual selector, pedal count, product version, place and period must match the narration. Reject confusing substitutes such as a gaming controller for a car selector unless the script explicitly makes that analogy.",
+    "prepared_visuals": "A hot glow, cutaway, arrow or document highlight may already be baked into an image. Do not classify all of these as motion-graphics templates.",
+    "camera": "Move smoothly toward the relevant visible area; zoom out when revealing context; derive framing from the actual image. Use fit/contain with a designed or blurred filler if cropping would hide an important object.",
+    "metaphor": "Use metaphor images only when the narration expresses an analogy; literal cause/action passages need the relevant subject.",
+    "source_mix": {
+      "real": 0.5,
+      "ai_image": 0.5,
+      "measure": "background duration",
+      "include": "backgrounds beside panel avatars and underneath circles",
+      "exclude": [
+        "avatar_full",
+        "full_graphic",
+        "promotion"
+      ],
+      "proposed_tolerance_percentage_points": 5,
+      "balance": "Globally and across chapters without mechanical source alternation; do not infer the reference real/AI ratio from appearance."
+    }
+  },
+  "graphics": {
+    "chapter_card": "Parameterize number, heading, optional subtitle, theme and duration; use the current script and Coolvetica. Position over the chapter introduction span, not automatically only on the isolated number word.",
+    "number_card": "Parameterize exact value/range, unit and short caption; preserve factual qualifiers from the script. Numbers in reference scenes 334/360 are examples, not hardcoded defaults or verified service advice.",
+    "density": "Select graphics by explanatory need, not a mandatory 30–34% quota inherited from faceless mode.",
+    "timing": "Entrance, readable hold and exit fit the semantic scene duration; six reference samples establish phase order but not exact easing or frame-level onset."
+  },
+  "ai_prompt_manifest": {
+    "fields": [
+      "asset_id",
+      "scene_ids",
+      "voiceover_excerpt",
+      "semantic_role",
+      "prompt",
+      "aspect_ratio",
+      "framing_notes"
+    ],
+    "prompt_content": [
+      "subject",
+      "specific visible action",
+      "setting and period",
+      "camera angle",
+      "important component visibility",
+      "space for avatar or text",
+      "continuity with related images"
+    ],
+    "text_in_images": "Keep exact chapter headings, labels and numbers in rendered text layers; do not depend on generated lettering.",
+    "identity": "Use an agreed fictional presenter identity; do not copy the reference narrator biography or claim fifty years of work experience.",
+    "import": "User generates in Google Flow. Map outputs by asset IDs or preview confirmation; ZIP ordering is not an identity. Bulk ZIP mapping still needs implementation."
+  },
+  "review": [
+    "Each visual supports the corresponding script span.",
+    "Avatar does not obscure the object or diagram.",
+    "Source clip offset and duration are within bounds; master voiceover preserved.",
+    "No adjacent identical avatar gesture; library identity consistent.",
+    "Text is readable, numbers and qualifications match the script.",
+    "Real/AI balance measured by background time, overlapping layers counted once."
+  ],
+  "limits": [
+    "No model-weight training has occurred; rules are persisted project artifacts.",
+    "Two references do not establish every niche or montage style.",
+    "SFX timing, gain and music in reference audio were not measured; user SFX gain 30% remains a separate production preference.",
+    "Media-generation provenance and technical claims in the reference are not verified."
+  ]
+}

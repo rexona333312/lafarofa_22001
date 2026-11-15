@@ -1,0 +1,21 @@
+const fs = require('node:fs');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const html = fs.readFileSync(__dirname + '/templates/index.html','utf8');
+const code = html.slice(html.indexOf('  function applyReusedChunks('), html.indexOf('  async function saveGraphicsTarget('));
+let cleared = 0;
+const drawn = [];
+const state = {chunks:[{id:0,type:'photo',files:['old.jpg']},{id:1,type:'photo',files:['manual.jpg']}],usedFiles:{},assets:{}};
+const context = {S:state, $:id=>id==='th-0'?{replaceChildren:()=>cleared++}:null,
+                 addThumb:(id,file,type)=>drawn.push([id,file,type])};
+vm.createContext(context);vm.runInContext(code,context);
+context.applyReusedChunks({reused_chunks:[{id:0,files:['good.jpg','old.jpg']}],confirmed_assets:{'good.jpg':{editor_confirmed:true}}});
+assert.deepEqual(state.chunks[0].files,['good.jpg','old.jpg']);
+assert.deepEqual(state.chunks[1].files,['manual.jpg']);
+assert.deepEqual(state.usedFiles[0],['good.jpg']);
+assert.equal(state.assets['good.jpg'].editor_confirmed,true);
+assert.equal(cleared,1);assert.deepEqual(drawn,[[0,'good.jpg','photo'],[0,'old.jpg','photo']]);
+context.applyReusedChunks({ordered_files:{0:['old.jpg','good.jpg']}});
+assert.deepEqual(Array.from(state.chunks[0].files),['old.jpg','good.jpg']);
+assert.deepEqual(Array.from(state.usedFiles[0]),['old.jpg']);
+console.log('OK: approved reuse and final ordering update thumbnails and selection; other choices stay fixed');

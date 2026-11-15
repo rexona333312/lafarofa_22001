@@ -1,0 +1,90 @@
+{
+  "chunks": [
+    {
+      "id": 0,
+      "scene_id": "zoom_in",
+      "type": "photo",
+      "preset": "PHOTO_SLOW_ZOOM",
+      "params": {
+        "fit": "cover"
+      },
+      "query": "architecture.jpg",
+      "files": [
+        "architecture.jpg"
+      ],
+      "text": "Приближение · 7 с",
+      "start": 0.0,
+      "end": 7.0,
+      "duration": 7.0
+    },
+    {
+      "id": 1,
+      "scene_id": "zoom_out",
+      "type": "photo",
+      "preset": "PHOTO_SLOW_ZOOM_OUT",
+      "params": {
+        "fit": "cover"
+      },
+      "query": "architecture.jpg",
+      "files": [
+        "architecture.jpg"
+      ],
+      "text": "Отдаление · 7 с",
+      "start": 7.0,
+      "end": 14.0,
+      "duration": 7.0
+    },
+    {
+      "id": 2,
+      "scene_id": "pan",
+      "type": "photo",
+      "preset": "PHOTO_PAN",
+      "params": {
+        "fit": "cover",
+        "direction": "right"
+      },
+      "query": "archive.jpg",
+      "files": [
+        "archive.jpg"
+      ],
+      "text": "Панорама · 7 с",
+      "start": 14.0,
+      "end": 21.0,
+      "duration": 7.0
+    },
+    {
+      "id": 3,
+      "scene_id": "small_photo",
+      "type": "photo",
+      "preset": "PHOTO_SLOW_ZOOM",
+      "params": {},
+      "query": "portrait.jpg",
+      "files": [
+        "portrait.jpg"
+      ],
+      "text": "Маленькое фото и размытый фон · 3 с",
+      "start": 21.0,
+      "end": 24.0,
+      "duration": 3.0
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 7.0,
+      "end": 7.0
+    },
+    {
+      "kind": "cut",
+      "start": 14.0,
+      "end": 14.0
+    },
+    {
+      "kind": "cut",
+      "start": 21.0,
+      "end": 21.0
+    }
+  ],
+  "text_cues": [],
+  "audio_tracks": []
+}

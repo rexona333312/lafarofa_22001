@@ -1,0 +1,319 @@
+# MASTER VISUAL STYLE GUIDE
+# NO SIGAS TU LUZ — AN APPALACHIAN NIGHT WALK
+# DARK MYSTERY DOCUMENTARY / FIRST-PERSON STORY / MIXED VISUAL LANGUAGE
+# SCRIPT-BOUND TEST EDITION 1.0 / ENGLISH GENERATION PROMPTS / SPANISH NARRATION
+# REALISTIC RECONSTRUCTION + MAPS + DOCUMENTS + MINIMALIST EXPLANATORY ANIMATION
+
+==================================================
+01. ROLE, SCOPE AND CURRENT PROJECT REQUIREMENTS
+==================================================
+
+Transform the supplied Spanish story into a coherent dark documentary-style video. Use the structure of a production style guide, but derive all people, objects, actions and visual choices from THIS story. The setting is a contemporary Appalachian forest during one evening and night. The exact year, state, trail and refuge are unspecified. Do not invent a verified case, an actual missing person, a precise trail location or historical provenance.
+
+The film is NOT entirely POV. Combine immersive first-person footage, observational exterior reconstruction, environment and object inserts, maps, documentary graphic cards, schematic scenes and explanatory diagrams. Different media perform different storytelling jobs while sharing one restrained visual identity.
+
+Current requirements:
+- Preserve the supplied narration and its eleven paragraph boundaries. Do not rewrite, expand or explain away the mystery.
+- Show genuine first-person found-footage passages, without a monster, ghost, unknown person or humanoid silhouette.
+- Also show motivated NON-POV material: external views of the same lone hiker, stationary views of the forest and trail, close details, diagrams and editorial inserts.
+- Include a route map, document-style reconstruction, story/rule card, schematic scene and explanatory diagram at suitable script moments.
+- Use explicit timed SHOT blocks and hard cuts inside eligible video-generation prompts. A one-line prompt can contain multiple consecutive full-screen shots.
+- Keep the same edge-to-edge 16:9 canvas throughout.
+- No newly generated dialogue, whispers, lip-sync, presenter or music. The supplied Spanish narration is the speaking track.
+
+The user's sample found-footage prompt provides sensory realism and camera behavior, not an extra plot. Do not inherit its distant figure, disappearance, spoken exclamation or additional branch snap. Attached examples supply structure; the current script supplies events.
+
+==================================================
+02. CORE INTERPRETATION AND VISUAL BALANCE
+==================================================
+
+The fear comes from familiar navigation and perception becoming unreliable: forest sound stops, trail marks contradict memory, GPS freezes, footprints match the narrator's boots, the clock remains at 21:43, equipment appears twice, and footsteps continue while the narrator stands still. The absence of a visible explanation is essential.
+
+Build the progression: an ordinary route -> a repeated signal -> contradictory evidence -> loss of orientation -> impossible duplication -> an unresolved final warning.
+
+Starting balance for this test, measured approximately by EDITED SCREEN TIME rather than clip count:
+- About 30% immersive POV reconstruction.
+- About 30% non-POV reconstruction, environmental observation and material details.
+- About 40% editorial material: maps, documents, cards, schematic scenes and explanatory diagrams combined.
+These are planning targets, not rigid quotas or a claim about generated results. Adjust to narration length and readability. All three families must be clearly present. Do not let POV consume a majority of the film. Avoid more than two consecutive POV generation clips; interrupt a longer passage with a relevant detail, exterior or graphic when this does not break the action.
+
+POV makes the audience experience uncertainty. Exterior reconstruction establishes physical isolation. Object details show evidence. Graphics clarify relationships the darkness cannot show clearly. Graphics may illustrate an observation, but must not solve an unexplained event or claim independent proof.
+
+==================================================
+03. NON-NEGOTIABLE STORY LOCKS
+==================================================
+
+- There is one living, visible hiker. No visible pursuer, creature, humanoid shape, glowing eyes, threatening reflection, face in bark, extra camper, rescuer or stalking shadow.
+- The hiker begins before sunset with a small backpack, phone, camera and flashlight. The intended shelter is a destination, not a place the hiker reaches.
+- White rectangular paint blazes mark trees. Initially they are ordinary individual trail marks, not arrows, runes, occult symbols or glowing signs.
+- The first knocks happen at 21:43: exactly three distant dry knocks. After five further steps, three knocks are heard behind the hiker. Do not show what makes them.
+- The hiker remembers the previous white mark on the right and now sees it on the left. Preserve this as a perceived contradiction, not a proven moving tree or visible teleportation.
+- The phone's blue location dot does not move. Do not add coordinates, a signal-loss warning, messages, a caller or a verified technical cause.
+- Boot prints match the hiker's boot size and sole pattern and point in the same direction as the hiker. Do not turn them into animal tracks, bare footprints, approaching tracks or a second visible walker.
+- Insects and wind stop together. During a brief flashlight blackout, one extra step follows the hiker's own step. No figure is revealed when light returns.
+- Marks become too frequent: one per tree, then two on a trunk, then three stacked. The path narrows and autofocus struggles. Both phone-time checks show 21:43; do not advance the clock.
+- A warm light is mistaken for the shelter. Its source is a flashlight on the ground beside an identical backpack. The hiker is still holding the original flashlight. No cabin window or shelter arrival is shown as fact.
+- Equipment duplication becomes visible only at that scripted reveal. Before it, show one flashlight and one backpack. Afterwards, keep the held flashlight distinct from the identical flashlight on the ground.
+- Three knocks sound directly ahead. The hiker backs against a tree with fresh wet white paint. The white marks around the hiker form a circle. Do not add a physically proven endless landscape, portal or moving wall of trees.
+- The narrator runs; breathing appears to come from the ground near the duplicate backpack and matches the narrator's rhythm. Both stop together. Nothing alive emerges from the bag.
+- Exactly three soft knocks strike the BACK of the camera. Do not reveal the hand or object responsible. Do not turn the camera around to expose an attacker.
+- Final warning: the exact four words are NO SIGAS TU LUZ. A last white mark sits above the inscription. The camera image goes black as its battery fails; footsteps recede while the narrator remains motionless. Retain the final brief sound after picture loss when audio editing supports it.
+
+Do not add police searches, deaths, gore, a discovery the following morning, newspaper coverage, a diary-writing scene, text messages or a rational explanation. This is an unresolved narrated story, not a verified investigation.
+
+==================================================
+03A. WORLD AND REPRESENTATION LOCK — EVERY PROMPT
+==================================================
+
+Choose ONE principal representation mode for each generation clip:
+POV / EXTERIOR / ENVIRONMENT / DETAIL / MAP / DOCUMENT / STORY_CARD / SCHEMATIC / EXPLANATORY.
+
+Realistic prompt anchor, completed for the current shot:
+"Contemporary Appalachian forest, [dusk or night], reconstruction of the same lone hiker's narrated experience."
+
+Graphic prompt anchor:
+"Editorial reconstruction for a dark Appalachian mystery story, [specific map/document/diagram task], flat graphic space rather than a physical event inside the forest."
+
+Do not leave brackets or planning IDs in a submitted prompt. Unknown exact locations and dates remain unspecified. Do not repeatedly demand an invented year because a software template has an era field.
+
+Cut between representation families as editorial changes. A realistic forest must not morph into vector trees, a phone must not become a geographic landscape, and a paper page must not transform into an actual building. Prefer one family per generated clip; assemble different families at ordinary edits between clips.
+
+==================================================
+03B. SCRIPT ENTITIES AND MODEL-FACING ROLES
+==================================================
+
+NARRATOR / HIKER: the same ordinary adult lone hiker in all realistic and schematic representations. The narrator's exact age, face and ethnicity are not established. Do not invent a celebrity likeness or a detailed personal biography. Exterior views show the back, cropped body, boots or a distant clearly established protagonist, without revealing a new face. A white pictogram in a diagram represents this same hiker, never an unknown entity.
+
+PROVISIONAL WARDROBE: plain charcoal waterproof jacket, dark hiking trousers, brown lug-soled boots, small muted-olive daypack. These are continuity choices, not narration additions. Lock them once selected. No military costume, bright expedition branding or outfit changes within the night.
+
+FLASHLIGHT_A: compact matte-black cylinder, a warm-neutral beam, held in the left hand when visible. Preserve body shape and beam character.
+PHONE_A: plain black smartphone; same case and screen orientation in all returns. Exact frozen time: 21:43.
+CAMERA_A: compact camera on a short chest strap, steadied by the right hand for handheld POV. During a phone check, the camera may hang against the upper chest so the right hand can hold the phone while the left holds the light. Never generate a third hand, a detached viewpoint presented as handheld, or the recording camera visibly filming itself.
+BOOT_SOLE_A: one approved distinctive simple lug pattern; use the same pattern for the boot and footprints.
+BACKPACK_A: muted-olive daypack, small size, plain straps and one recognizable front pocket.
+FLASHLIGHT_B / BACKPACK_B: identical ground-level counterparts, introduced only at the scripted duplication reveal. They are not new characters and must not become a pile of extra equipment.
+
+==================================================
+04. VISUAL STYLE LOCK — TWO COMPATIBLE SYSTEMS
+==================================================
+
+REALISTIC MATERIAL:
+Believable contemporary night reconstruction, tactile damp bark, mud, leaves and practical hiking gear. Found-footage passages have modest sensor noise, imperfect but readable exposure, natural autofocus adjustment and light motion blur. Exterior shots are restrained observational reconstruction: stationary or minimally moving, never a glamorous commercial or a spectacular horror-film camera move. Early dusk establishes normality; later darkness is lit principally by the flashlight and phone, with very weak ambient sky light where justified. Darkness must retain enough shape to understand the action.
+
+GRAPHIC MATERIAL:
+Flat 2D documentary illustration, matte charcoal field, subdued gray-green trees and terrain, warm ivory lines and people, restrained rust-red accents. Paper has aged gray-beige texture without elaborate collage clutter. Muted blue is reserved for the phone/GPS dot or map route where useful; warm pale yellow shows the flashlight beam. Simple silhouettes, circles, paths and line work explain one relationship at a time. No glossy 3D, neon interface, cute cartoon faces, comic exaggeration, ornamental horror symbols or blood-splatter decoration.
+
+Shared look: charcoal, damp gray-green, warm off-white, small rust-red accents, restrained grain and deep but readable shadows. Do not apply a blanket "no illustration/cartoon" negative to graphic modes: flat schematic illustration is explicitly required.
+
+==================================================
+05. LOCATION BIBLE AND SPATIAL CONTINUITY
+==================================================
+
+TRAIL_DUSK: ordinary Appalachian mixed forest, narrow dirt path, leaf litter, shallow roots, occasional white tree blazes. No alpine glacier, jungle, urban park or invented named landmark.
+TRAIL_NIGHT: the same forest after dark; preserve tree scale, ground moisture, path width and local terrain until the narration changes them.
+MARK_RETURN: the recently passed section used for the right/left discrepancy. Keep the uncertainty in the hiker's view; do not stage an objective shot of a blaze sliding around a trunk.
+DOWNHILL_PRINTS: a descending muddy section with forward-facing matching boot prints. The comparison has a stable ground plane.
+BRANCH_CORRIDOR: later narrowing route, branches encroaching and marks becoming excessive. The forest does not instantly turn into a tunnel of architecture.
+DUPLICATE_CLEARING: a small patch of forest floor with the lit duplicate flashlight and matching backpack. Fix their relationship to nearby roots and trees for later sound cues.
+PAINT_CIRCLE: the same local forest with fresh marks surrounding the hiker. Use a schematic overhead if the circle cannot be read from a human viewpoint.
+FINAL_TREE: one nearby bark surface, final white blaze and warning. Preserve its relation to the hiker during the held ending.
+
+Graphics use a deliberately schematic local route. A regional Appalachian context map may be geographically grounded if reference data is provided; the unnamed local trail is never presented as surveyed geography. Use APALACHES as the broad place label, with short sendero/refugio labels only if needed. Do not invent a town name or precise coordinates.
+
+==================================================
+05A. SCRIPT-TO-VISUAL ROUTING AND EDITORIAL DISCIPLINE
+==================================================
+
+POV: experience a turn, check a mark, compare a boot, glimpse the duplicate equipment or hold on the final tree.
+EXTERIOR: establish the lone hiker's small scale on an ordinary path at dusk; show the established protagonist from behind before a stop; observe a short section of running from the side. No hidden-pursuer framing, attacker viewpoint or new figure in the background.
+ENVIRONMENT: held view of leaves moving before silence, an empty stretch of trail, the descending ground, wet bark or branches becoming still. Select details tied to the narration, not a random montage of ominous forest stock.
+DETAIL: backpack strap, boot sole, paint texture, lit phone or ground-level flashlight. A close-up may be objective editorial coverage rather than the hiker's eye view.
+MAP: route toward the intended shelter, a stationary GPS point, loss of route orientation and a later diagrammatic circle of marks.
+DOCUMENT: a designed reconstruction card, route note or incident-summary page built from events the narrator describes. Clearly distinguish editorial material from a document the hiker actually handled. No invented police letterhead, historical newspaper, witness, publisher or independent evidence.
+STORY_CARD: one episode title or restrained separator, such as TRES GOLPES or 21:43. A rule-style card may echo NO SIGAS TU LUZ at the ending. It is an editorial motif, not a claim that the narrator previously knew a survival rule.
+SCHEMATIC: one ivory hiker, tree symbols, a path and a cone of light; show spatial relationships or the circle of blazes. No car is needed in THIS script. Cars remain available vocabulary only for future stories that actually include one.
+EXPLANATORY: a torch beam scanning empty tree gaps; matching boot-tread comparison; original and duplicated equipment as paired objects; marks changing from one to two to three; the observed step followed by one unexplained sound pulse. Show what was observed, not its unknown cause.
+
+Newspapers, reports, diaries and messages are channel-level options, not mandatory inventions in every episode. This script supports a plainly marked editorial reconstruction/report card and the actual phone display. It does NOT support a discovered old newspaper, a police case file, a sent message or a diary entry. Underground passages are also absent and must not be added just to demonstrate a diagram style.
+
+==================================================
+06. LIGHT, COLOR AND SOUND STATES
+==================================================
+
+STATE_A / BEFORE DARK: subdued natural late-day light, modest color, ordinary insects and leaves moving. No horror filter that makes the starting route already impossible.
+STATE_B / NIGHT BEFORE SILENCE: flashlight-lit wet textures, surrounding darkness, ordinary insect and wind ambience.
+STATE_C / SILENCE: visible leaf/branch motion stops; the hiker's breathing, gear and steps remain. Avoid an unnatural light wave, magical mist or visible force shutting down the forest.
+STATE_D / DISORIENTATION: same practical lighting, tighter space, brief autofocus struggle, excessive blazes and the frozen clock. Increase pressure through framing and timing rather than a new lighting rig.
+STATE_E / DUPLICATION: the distant warm pool of light resolves into equipment on the ground. Both established flashlight beams must have understandable positions.
+STATE_F / END: held view of the final tree, image loss, then a very brief remaining sound if supported. Do not add a final monster frame or a new daylight scene.
+
+Native sound, when supported: restrained leaf crunch, breath, insects, wind, the specified knocks and steps. Never add speech, a scream, horror stingers or music. Graphic sound can remain silent under narration; do not automatically add interface beeps or whooshes. If the pipeline discards generated audio, these cues are an editing plan, not a promise that the final mix already contains them.
+
+==================================================
+07. COMPOSITION AND PURPOSEFUL SHOT VARIETY
+==================================================
+
+Use medium-wide human-height POV for orientation; downward POV for mud and gear; stationary external wide views for isolation; objective close-ups for evidence; fixed overhead or side-view diagrams for spatial explanation. Change scale to reveal information, not to mechanically rotate through wide/medium/close.
+
+Realistic exterior views are legitimate reconstructed coverage, not footage secretly recorded by another character. A distant view of the narrator must clearly match the known wardrobe and backpack and must not resemble the sample prompt's unknown humanoid silhouette.
+
+Use macro only when texture or tread matters. Keep phone, footprint comparison and duplicate equipment large enough to read. Avoid shallow focus that hides the evidence. Do not show a beautiful aerial forest shot instead of the actual change the narration describes.
+
+==================================================
+08. CANVAS, TEXT AND READABILITY CONTRACT
+==================================================
+
+One edge-to-edge 16:9 canvas, target 1920x1080 or the generator's supported native 16:9 size. No letterboxing, portrait inserts, contact sheets, borders, simultaneous split-screen panels or a storyboard grid. A multi-shot prompt means consecutive full-screen images, not several panels in one frame.
+
+Keep essential graphics and captions within generous safe margins, roughly 8% from frame edges. One main relationship and at most a few labels per diagram. Hold a completed graphic long enough to read it.
+
+Visible editorial text is Spanish. Model-facing visual descriptions are English. Limit generated lettering to essential short strings: APALACHES; 21:43; TRES GOLPES; RECONSTRUCCIÓN; NO SIGAS TU LUZ. Do not paste paragraphs of narration into a scene or turn narration into subtitles. Avoid small legal text, newspaper columns and dense phone UI.
+
+The repeated 21:43 and final warning are story-critical. Request their exact spelling and inspect the result. When a separate lettering/compositing step is available, it may supply exact text over a prepared surface. If it is unavailable, do not pretend exact text has been guaranteed: regenerate or flag unreadable results rather than accepting a different time or warning.
+
+==================================================
+09. SHOT SELECTION: MEANING BEFORE TECHNIQUE
+==================================================
+
+Before writing a clip, identify its single task: orient / experience / inspect evidence / clarify a spatial relation / mark a contradiction / hold an unresolved consequence.
+
+Do not show every spoken sentence literally. Several consecutive sentences can share one useful image if it remains relevant. Conversely, the duplicate flashlight needs enough coverage to establish the ground object AND the original in the hand. A wide forest alone cannot explain matching sole patterns; a phone alone cannot establish the circle of trees.
+
+For repetition, change meaning or information: first a normal blaze, later a remembered-side discrepancy, then two/three marks, then the enclosing circle. Do not generate identical flashlight sweeps for every paragraph.
+
+==================================================
+10. CAMERA AND MULTI-SHOT DECISION ENGINE
+==================================================
+
+Realistic POV: human body movement, measured steps, small flashlight-led pans, a motivated tilt toward a phone or boot. Shake intensifies only during narrated running or a startled reaction. Preserve readability and a plausible camera carrier. No drone, orbit, crane, cinematic dolly, game HUD, fisheye action-camera exaggeration or constant violent shaking.
+Exterior/environment: mainly locked-off, a small restrained pan or one short lateral following move where needed. No voyeuristic camera hiding behind a tree as if a pursuer is filming.
+Graphics: fixed graphic viewpoint by default; animate the path, symbol, beam or annotation. Use a small diagram reframe only when it reveals a needed relationship. No unnecessary flying through a 3D forest.
+
+MULTI-SHOT DEFAULT FOR THIS TEST:
+- For ordinary T2V clips with at least 6 usable seconds, default to TWO sequential shots with an explicit HARD CUT. Change attention, scale or view to explain an action.
+- For clips with at least 9 usable seconds, THREE shots are allowed if each has a distinct job and remains readable. Do not add a third cut to satisfy a quota.
+- Shorter clips may use one shot; use two only when each has at least roughly 2 seconds and no complex readable text is squeezed in.
+- Reserve a continuous take for a deliberate suspense hold, one fragile action or the final refusal to turn around. These exceptions must not silently make the entire film single-shot.
+- Prefer a stable diagram with two clear views or staged reveals to rapid cutting. Two phases on an unchanged diagram are continuous animation, not a falsely labelled second shot.
+
+TIME FORMAT: use clip-local seconds with two decimals. SHOT 1 [00.00–03.00] means 0 to 3 seconds, not 0.03 seconds. Start at 00.00, use contiguous non-overlapping intervals, end exactly at the actual supplied clip duration. These are internal generation timings, not invented timestamps for the finished narration.
+
+REQUIRED MULTI-SHOT SERIALIZATION:
+Shared setup and style. SHOT 1 [00.00–03.00]: concrete first composition and visible action. | HARD CUT. SHOT 2 [03.00–08.00]: concrete second composition, action and readable endpoint. | Applicable constraints.
+
+The 8-second structure above is an example only. Calculate times from the real clip/generator budget. Do not force every clip to eight or ten seconds. Never combine global "one continuous shot, no cuts" with a multi-shot instruction. Each individual SHOT can be continuous while the clip has cuts.
+
+==================================================
+11. CONSISTENCY AND REFERENCE ROUTING
+==================================================
+
+Track the same jacket cuffs, hands, boots, sole pattern, phone, flashlight and backpack across realistic views. The graphic pictogram keeps the same simple design but is an editorial abstraction, not a new physical costume.
+
+If references are available, attach the relevant object/location view using the actual tool's inputs. A filename, a reference ID or the words "same as before" do not prove that an independent generation receives a reference. When references are absent, repeat a compact concrete appearance description. Treat consistency as something to inspect, not a promised identity lock.
+
+For matching footprints, prioritize the sole and mud comparison reference. For duplicate equipment, prioritize a single approved flashlight/backpack design and the two-object staging. Do not attach a face portrait when the task is a boot detail. In single-image I2V, the input image depicts SHOT 1 only, never a storyboard montage.
+
+==================================================
+12. CONTINUITY AND EDITING ENGINE
+==================================================
+
+Track: light state, location, camera support, hands occupied, equipment count, phone time, first appearance of anomalies, current blaze count, movement direction, sound state and what the hiker can actually see.
+
+Use ordinary hard cuts as the default. Useful connections: exterior trail -> POV continuation; white blaze -> ivory map mark; boot sole -> footprint diagram; phone map -> editorial route map; flashlight beam -> schematic cone; ground equipment -> original still in hand; wet paint detail -> overhead circle diagram.
+
+These are EDITS, not physical transformations. Do not use object morphing, ghost dissolves, AI liquid transitions, glitch effects, speed ramps or repeated white flashes as the default horror language.
+
+A cut may omit unimportant travel but must not replay a knock sequence as a new occurrence or restore already lost orientation. A diagram shows the same narrated moment from an editorial viewpoint; it does not mean the hiker has obtained an aerial map or an explanation.
+
+==================================================
+13. EDITORIAL CONTRAST WITHOUT INVENTED EVENTS
+==================================================
+
+Alternate experienced reality and explanatory abstraction only when it clarifies the SAME narrated event. Examples: remembered mark position versus current view; known boot sole versus matching print; moving hiker versus stationary location dot; held flashlight versus the identical ground flashlight.
+
+Never create a simultaneous second person walking elsewhere, an observer behind the camera, a rescue response, a scientist, a news broadcast or a scene of the unknown cause. Keep ambiguity intact. An empty trail is allowed to remain empty.
+
+==================================================
+14. SCRIPT COVERAGE AND SHORT-CLIP PRACTICE
+==================================================
+
+The supplied story has ELEVEN paragraphs. Preserve them as P01–P11 in planning; the IDs do not belong in generated images. Use actual voiceover/transcription timing before choosing final clip counts. The following table is a coverage map, not eleven fixed clips and not a finished timeline.
+
+P01 / "Dicen que, si te pierdes...": opening uncertainty and forest silence. Mix brief POV orientation, objective leaves/branches and an empty held trail. Do not reveal later anomalies before they are introduced.
+P02 / "Había empezado la ruta...": normal preparation before sunset. External rear view of the hiker, useful gear detail, editorial Appalachian context/route map toward an unnamed shelter. Establish normal single white blazes.
+P03 / "A las nueve y cuarenta y tres...": three distant knocks, five steps, three knocks behind. POV stop plus a restrained 21:43 story card or schematic orientation diagram. Do not show a sound-maker.
+P04 / "Apunté la linterna...": empty return view, perceived right/left mismatch, frozen GPS point. Alternate a realistic blaze/phone view with a clear static-point map comparison.
+P05 / "Decidí avanzar...": downhill ground and matching prints. Objective mud detail or downward POV, then a flat sole-versus-print comparison. No second visible walker.
+P06 / "Entonces desaparecieron los insectos...": abrupt silence, light off for one second, one extra step. Environment stillness plus one deliberate POV hold; a simple spatial/sound diagram may clarify the observation without revealing a cause.
+P07 / "Volví a caminar...": excessive marks, narrow path, focus loss, unchanged time. Non-POV bark inserts, a one/two/three-mark diagram, then a readable phone return. A minimal RECONSTRUCCIÓN document card may summarize the repeated 21:43 without adding a discovered document.
+P08 / "A lo lejos apareció...": mistaken destination, approach, ground flashlight/backpack, original flashlight still held. Use enough connected realistic views to make duplication understandable; an editorial paired-object diagram can reinforce it after the reveal.
+P09 / "Los tres golpes sonaron...": knocks ahead, backing into wet paint, enclosing marks. Objective paint detail and fixed overhead schematic of one hiker surrounded by marked trees; preserve the uncertainty of the actual exit route.
+P10 / "Eché a correr...": running, synchronized breathing near the duplicate backpack, stop, camera knocks. Brief external view of the established running hiker, controlled frantic POV, then a held view and restrained spatial explanation if timing permits. No attacker and no backward reveal.
+P11 / "No me atreví a girarme...": final held tree, warning, battery failure, receding steps while stationary. Give the warning time to register; finish in black. A rule-style warning card may precede the final tree or substitute for unreadable lettering if an explicit editorial treatment is selected; it must not erase the narrated tree or the held ending.
+
+Minimum coverage checklist for the test: genuine POV; exterior/environment/detail variety; at least one MAP; one DOCUMENT-style editorial reconstruction; one STORY_CARD/rule motif; one SCHEMATIC scene; one EXPLANATORY comparison. One graphic may meet two categories only if it visibly does both jobs. Do not count an ordinary phone close-up as the only map, document and explanatory scene at once.
+
+==================================================
+15. PROMPT WRITING AND OUTPUT CONTRACT
+==================================================
+
+Separate planning from model-facing prompts. Planning can record paragraph, narration span, mode, actual duration, visual task, continuity in/out, required references and text-critical items. Do not dump that metadata into the prompt unless the application explicitly requests it.
+
+GENERATED VIDEO PROMPT ORDER:
+1. Concrete world/location or graphic setup, first visible composition and the mode's compact shared style.
+2. Timed SHOT blocks for eligible multi-shot clips; each has a distinct full-screen view and one readable action.
+3. A literal HARD CUT between shots, serialized with " | "; put " | " after the last shot before the closing constraints.
+4. Local continuity and relevant exclusions. No new narration, dialogue or abstract plot summary.
+
+Every final generation prompt is ONE CONTINUOUS LINE. Keep the application's required clip header and outer JSON/schema if present. One output item per requested clip. Do not merge several input clips into one output or insert report headings into a prompt array.
+
+STILL IMAGE / INTRO KEYFRAME: describe only the first shot's initial composition. Do not ask the still model to animate, cut or draw all shots in one image.
+DIRECT T2V: include the full temporal shot sequence and explicit cuts.
+I2V: preserve the supplied first frame for SHOT 1. Request later cuts only when the actual generation route supports them; do not make one still serve as multiple simultaneous views. If the route requires a continuous extension, follow that technical constraint and realize the intended cut in separate clips/editing rather than silently promising unsupported behavior.
+SOURCE: INFOGRAPHIC: if the software requests a static infographic asset, write the static diagram composition in this guide's graphic style. Do not put a moving multi-shot sequence into that static-image request. Animated SCHEMATIC/EXPLANATORY scenes should use the AI video route when available.
+SOURCE: FOOTAGE: write the application's requested findable visual intent. Do not invent archived footage of these fictional anomalies. Ordinary Appalachian forest, trail or weather material may establish context without being represented as original evidence of this narrated night.
+
+Do not copy the Spanish voiceover into the visual prompt. The short on-screen strings explicitly required above are lettering instructions, not generated speech. Resolve all duration and shot placeholders before submission.
+
+==================================================
+16. COMPACT STYLE LINES AND MODE-SPECIFIC NEGATIVES
+==================================================
+
+POV STYLE: "Believable first-person found-footage reconstruction in a contemporary Appalachian forest, practical flashlight illumination, tactile wet bark and mud, restrained sensor noise, natural focus adjustment, physically plausible human movement, deep readable shadows, edge-to-edge 16:9."
+
+EXTERIOR / ENVIRONMENT / DETAIL STYLE: "Restrained observational reconstruction of the same Appalachian night, practical motivated light, charcoal and muted gray-green palette, tactile natural surfaces, subtle grain, clear evidence-led composition, no glamorous staging, edge-to-edge 16:9."
+
+GRAPHIC STYLE: "Minimalist flat 2D dark-documentary graphics, matte charcoal texture, muted gray-green environment symbols, warm ivory line work and pictograms, sparse rust-red accents, simple readable geometry, one clear explanatory relationship, edge-to-edge 16:9."
+
+DOCUMENT / CARD STYLE: "Restrained editorial reconstruction, charcoal field or aged gray-beige paper, warm off-white serif headline with simple sans-serif labels, sparse rust-red accent, generous empty space, few large Spanish words, edge-to-edge 16:9."
+
+SHARED EXCLUSIONS: visible monster, unknown humanoid silhouette, additional person, glowing eyes, ghost, face in trees, stalking shadow, supernatural portal, gore, jump-scare reveal, invented police evidence, extra dialogue, narrator lip-sync, generated music, logos, watermark, unrequested subtitles, split-screen, storyboard collage, unintended aspect-ratio changes.
+
+REALISTIC-ONLY EXCLUSIONS: cartoon rendering, plastic skin, glossy CGI, fantasy props, impossible extra hands, unsupported camera viewpoint, random face changes, neon night lighting, decorative thick fog, cinematic orbit, drone dive, constant panic shake.
+
+GRAPHIC-ONLY EXCLUSIONS: photorealistic humans, cinematic lens effects, volumetric 3D, glossy isometric UI, neon dashboards, cute characters, dense labels, illegible body text, decorative horror clip art, arbitrary moving camera. Flat white pictograms are explicitly allowed here.
+
+Never append "no cuts" to a multi-shot prompt. Never append "no text" to a shot requiring the clock or final warning. Apply the appropriate local exclusions, not every mode's negative list at once.
+
+==================================================
+17. FINAL DIRECTOR VALIDATION
+==================================================
+
+Before accepting a prompt or generated clip:
+- Does it show the current paragraph's event rather than an invented horror cliché?
+- Is the selected mode appropriate, with substantial non-POV coverage across the film?
+- Are the flashlight, backpack, hands and camera support plausible and consistent?
+- Are anomalies introduced in the correct order, with no early equipment duplication?
+- Is every human figure the known hiker, including schematic pictograms?
+- Does the diagram clarify an observation while leaving its cause unresolved?
+- Are eligible multi-shot clips actually written as timed SHOT blocks with explicit hard cuts?
+- Do the shot intervals cover the supplied duration without gaps, overlaps or unreadably short views?
+- Is each cut a sequential full-screen change rather than a split-screen or a morph?
+- Are 21:43 and NO SIGAS TU LUZ correct and legible when visible?
+- Are maps/documents visibly editorial reconstructions, without fabricated sources or precise geography?
+- Are all eleven paragraphs covered, with the required map, document, card, schematic and explanatory modes?
+- Does the final image hold on the tree and end in black without revealing an entity?
+
+Inspect actual generated beginnings, cuts, intermediate states and endings; a correct prompt is not proof of a correct video. If the software rewrites the guide or prompts, inspect that output for lost mode variety, removed SHOT blocks, incompatible "one continuous shot" language and unwanted monsters.
+
+The finished film should alternate lived experience, material evidence and restrained explanation. Its identity comes from a familiar trail becoming impossible to read, while the thing causing the fear remains unseen.

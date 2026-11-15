@@ -1,0 +1,8 @@
+{
+  "id": "ARCHIVE_PAPER",
+  "description": "Фото с рамкой и тенью на фоне бумаги",
+  "kind": "photo",
+  "layout": "paper",
+  "zoom_start": 0,
+  "zoom_end": 0.035
+}

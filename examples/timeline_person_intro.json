@@ -1,0 +1,19 @@
+{
+  "chunks": [
+    {"scene_id": 1, "type": "photo", "query": "Donald Trump official portrait", "start": 0, "end": 5,
+      "entity": "Donald Trump", "entity_type": "person", "search_mode": "exact", "source_policy": ["editorial", "archive"],
+      "template": "person_intro_left", "editor_note_ru": "Представление персонажа — слева, плавный вход снизу",
+      "params": {"person_name": "Donald Trump", "person_role": "President of the United States", "arrival_frames": 36}},
+    {"scene_id": 2, "type": "photo", "query": "Donald Trump official portrait", "start": 5, "end": 10,
+      "entity": "Donald Trump", "entity_type": "person", "search_mode": "exact", "source_policy": ["editorial", "archive"],
+      "template": "person_intro_center", "editor_note_ru": "Представление персонажа — по центру, плавный вход снизу",
+      "params": {"person_name": "Donald Trump", "person_role": "President of the United States", "arrival_frames": 36}},
+    {"scene_id": 3, "type": "photo", "query": "Donald Trump official portrait", "start": 10, "end": 15,
+      "entity": "Donald Trump", "entity_type": "person", "search_mode": "exact", "source_policy": ["editorial", "archive"],
+      "template": "person_intro_right", "editor_note_ru": "Представление персонажа — справа, плавный вход снизу",
+      "params": {"person_name": "Donald Trump", "person_role": "President of the United States", "arrival_frames": 36}}
+  ],
+  "transitions": [{"kind": "cut", "start": 5, "end": 5}, {"kind": "cut", "start": 10, "end": 10}],
+  "text_cues": [],
+  "audio_tracks": []
+}

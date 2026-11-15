@@ -1,0 +1,171 @@
+{
+  "chunks": [
+    {
+      "id": 0,
+      "scene_id": "reference_87",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "object_pointer",
+      "params": {
+        "label": "wharf building",
+        "anchor": [
+          0.13,
+          0.38
+        ],
+        "label_point": [
+          0.405,
+          0.55
+        ],
+        "control_point": [
+          0.23,
+          0.54
+        ],
+        "archival": true
+      },
+      "query": "wharf.jpg",
+      "search_mode": "broll",
+      "text": "Think about how people actually estimate size under stress.",
+      "start": 0.0,
+      "end": 6.366666666666666,
+      "duration": 6.366666666666666,
+      "files": [
+        "wharf.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "scene_id": "reference_106",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "corner_section",
+      "params": {
+        "lines": [
+          {
+            "text": "fourth:",
+            "start_frame": 15,
+            "reveal_frames": 24
+          },
+          {
+            "text": "the water",
+            "start_frame": 39,
+            "reveal_frames": 24
+          }
+        ],
+        "archival": true
+      },
+      "query": "water.jpg",
+      "search_mode": "broll",
+      "text": "number. Real witnesses to something overwhelming tend to agree on the what and argue about the how much. Fourth, the water.",
+      "start": 6.366666666666666,
+      "end": 14.366666666666667,
+      "duration": 8.0,
+      "files": [
+        "water.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "scene_id": "reference_142",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "date_interval",
+      "params": {
+        "from_year": 1918,
+        "to_year": 1963,
+        "from_label": "story heard",
+        "to_label": "book published",
+        "unit": "years"
+      },
+      "query": "book.jpg",
+      "search_mode": "broll",
+      "text": "Let that sit for a moment. The man who heard the story in 1918 carried it for roughly four decades. He wrote it into a book.",
+      "start": 14.366666666666667,
+      "end": 22.433333333333334,
+      "duration": 8.066666666666666,
+      "files": [
+        "book.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "scene_id": "reference_149",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "bullet_panel",
+      "params": {
+        "title": "unanswered questions",
+        "items": [
+          {
+            "text": "how many pots?",
+            "start_frame": 47,
+            "reveal_frames": 24
+          },
+          {
+            "text": "what depth?",
+            "start_frame": 75,
+            "reveal_frames": 24
+          },
+          {
+            "text": "what time of morning?",
+            "start_frame": 100,
+            "reveal_frames": 24
+          }
+        ],
+        "archival": true
+      },
+      "query": "desk.jpg",
+      "search_mode": "broll",
+      "text": "Nobody could ask exactly how many pots, what depth, what time of morning, which grounds, which boats,",
+      "start": 22.433333333333334,
+      "end": 28.0,
+      "duration": 5.566666666666666,
+      "files": [
+        "desk.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "scene_id": "reference_161",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "echo_statement",
+      "params": {
+        "text": "an absence shaped exactly like an answer",
+        "echo": "absence"
+      },
+      "query": "desk.jpg",
+      "search_mode": "broll",
+      "text": "An absence shaped exactly like an answer.",
+      "start": 28.0,
+      "end": 30.866666666666667,
+      "duration": 2.8666666666666667,
+      "files": [
+        "desk.jpg"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 6.366666666666666,
+      "end": 6.366666666666666
+    },
+    {
+      "kind": "cut",
+      "start": 14.366666666666667,
+      "end": 14.366666666666667
+    },
+    {
+      "kind": "cut",
+      "start": 22.433333333333334,
+      "end": 22.433333333333334
+    },
+    {
+      "kind": "cut",
+      "start": 28.0,
+      "end": 28.0
+    }
+  ],
+  "text_cues": [],
+  "audio_tracks": []
+}

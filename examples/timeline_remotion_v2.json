@@ -1,0 +1,47 @@
+{
+  "chunks": [
+    {
+      "type": "photo",
+      "query": "historical portrait",
+      "start": 0,
+      "end": 4,
+      "template": "blur-in",
+      "params": {
+        "arrival_frames": 27,
+        "corner_radius": 28
+      }
+    },
+    {
+      "type": "photo",
+      "query": "historical document",
+      "start": 4,
+      "end": 8,
+      "template": "spring-in"
+    },
+    {
+      "type": "photo",
+      "query": "historical city",
+      "start": 8,
+      "end": 12,
+      "template": "scale-in"
+    }
+  ],
+  "text_cues": [],
+  "transitions": [
+    {
+      "kind": "blur-reveal",
+      "start": 3.6,
+      "end": 4.4
+    },
+    {
+      "kind": "directional-wipe",
+      "start": 7.6,
+      "end": 8.4,
+      "params": {
+        "direction": "from-right",
+        "variant": "editorial"
+      }
+    }
+  ],
+  "audio_tracks": []
+}

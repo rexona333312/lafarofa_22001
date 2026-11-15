@@ -1,0 +1,8 @@
+{
+  "id": "BLUR_BG_STATIC",
+  "description": "Размытый фон и неподвижное фото по центру",
+  "kind": "photo",
+  "layout": "blur",
+  "zoom_start": 0,
+  "zoom_end": 0
+}

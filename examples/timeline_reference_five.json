@@ -1,0 +1,149 @@
+{
+  "chunks": [
+    {
+      "id": 0,
+      "scene_id": "reference_31",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "params": {},
+      "query": "map.png",
+      "search_mode": "broll",
+      "text": "This was the edge of where the shelf starts to fall away.",
+      "start": 0.0,
+      "end": 3.6,
+      "duration": 3.6,
+      "files": [
+        "map.png"
+      ]
+    },
+    {
+      "id": 1,
+      "scene_id": "reference_51",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "chapter_heading",
+      "params": {
+        "text": "the authority behind the record"
+      },
+      "query": "office.jpg",
+      "search_mode": "broll",
+      "text": "Now, I want to talk about the person who wrote this down, because without him, this story is a PUB anecdote. With him, it's a record.",
+      "start": 3.6,
+      "end": 11.433333333333334,
+      "duration": 7.833333333333333,
+      "files": [
+        "office.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "scene_id": "reference_53",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "date_countback",
+      "params": {
+        "year": 1918,
+        "from_year": 2026
+      },
+      "query": "fish.jpg",
+      "search_mode": "broll",
+      "text": "By 1918, he had spent most of his adult life studying the fish of Australian waters, and he had done it officially.",
+      "start": 11.433333333333334,
+      "end": 18.433333333333334,
+      "duration": 7.0,
+      "files": [
+        "fish.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "scene_id": "reference_65",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "editorial_statement",
+      "params": {
+        "text": "stead recorded the men"
+      },
+      "query": "office.jpg",
+      "search_mode": "broll",
+      "text": "What Stead recorded, as it comes down to us, is that he spoke with the men",
+      "start": 18.433333333333334,
+      "end": 21.633333333333333,
+      "duration": 3.2,
+      "files": [
+        "office.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "scene_id": "reference_66",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "paired_evidence",
+      "params": {
+        "comparison_group": "testimonies",
+        "label": "testimony one",
+        "archival": true
+      },
+      "query": "testimony_one.jpg",
+      "search_mode": "broll",
+      "text": "men and was struck by how their accounts agreed.",
+      "start": 21.633333333333333,
+      "end": 22.966666666666665,
+      "duration": 1.3333333333333333,
+      "files": [
+        "testimony_one.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "scene_id": "reference_66",
+      "type": "photo",
+      "preset": "PHOTO_STATIC",
+      "template": "paired_evidence",
+      "params": {
+        "comparison_group": "testimonies",
+        "label": "testimony two",
+        "archival": true
+      },
+      "query": "testimony_two.jpg",
+      "search_mode": "broll",
+      "text": "men and was struck by how their accounts agreed.",
+      "start": 22.966666666666665,
+      "end": 24.7,
+      "duration": 1.7333333333333334,
+      "files": [
+        "testimony_two.jpg"
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "kind": "cut",
+      "start": 3.6,
+      "end": 3.6
+    },
+    {
+      "kind": "cut",
+      "start": 11.433333333333334,
+      "end": 11.433333333333334
+    },
+    {
+      "kind": "cut",
+      "start": 18.433333333333334,
+      "end": 18.433333333333334
+    },
+    {
+      "kind": "cut",
+      "start": 21.633333333333333,
+      "end": 21.633333333333333
+    },
+    {
+      "kind": "cut",
+      "start": 22.966666666666665,
+      "end": 22.966666666666665
+    }
+  ],
+  "text_cues": [],
+  "audio_tracks": []
+}

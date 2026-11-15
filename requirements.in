@@ -1,0 +1,7 @@
+flask
+python-dotenv
+pillow
+requests
+urllib3
+yt-dlp
+yt-dlp-ejs

@@ -1,0 +1,587 @@
+{
+  "main_entity": "Friedrich Merz",
+  "main_entity_type": "person",
+  "query_budget": 6,
+  "chunks": [
+    {
+      "scene_id": 1,
+      "word_range": [
+        0,
+        7
+      ],
+      "type": "video",
+      "start": 0,
+      "end": 2.938,
+      "text": "Friedrich Merz sagt seine New York-Reise ab.",
+      "query": "Friedrich Merz Rede Bundestag",
+      "search_queries": [
+        "Friedrich Merz Rede Bundestag",
+        "Friedrich Merz"
+      ],
+      "entity": "Friedrich Merz",
+      "entity_type": "person",
+      "entity_aliases": [
+        "Merz"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "Friedrich Merz himself speaking at a lectern, not a presenter discussing him.",
+      "editor_note_ru": "Мерц на реальном выступлении; кадр иллюстративный, не доказательство отмены поездки.",
+      "source_policy": [
+        "youtube",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": [],
+      "visual_fallbacks": [
+        {
+          "role": "photo",
+          "type": "photo",
+          "query": "Friedrich Merz Rede Bundestag",
+          "search_mode": "exact",
+          "entity": "Friedrich Merz",
+          "entity_type": "person",
+          "entity_aliases": [
+            "Merz"
+          ],
+          "source_policy": [
+            "editorial",
+            "archive"
+          ],
+          "visual_intent": "Friedrich Merz himself speaking at a lectern, not a presenter discussing him."
+        }
+      ]
+    },
+    {
+      "scene_id": 1,
+      "word_range": [
+        7,
+        16
+      ],
+      "type": "photo",
+      "start": 2.938,
+      "end": 8.696,
+      "text": "Und gleichzeitig stellen sich acht CDU-Ministerpräsidenten öffentlich hinter ihn.",
+      "query": "CDU Ministerpräsidenten Gruppenfoto",
+      "search_queries": [
+        "CDU Ministerpräsidenten Gruppenfoto",
+        "CDU"
+      ],
+      "entity": "CDU",
+      "entity_type": "organization",
+      "entity_aliases": [
+        "Christlich Demokratische Union"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "CDU politicians together at a real party meeting. An illustrative group photo; do not imply this is the exact declaration or exactly eight named signatories.",
+      "editor_note_ru": "Реальное групповое фото политиков CDU; не выдавать его за снимок конкретного заявления.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 2,
+      "word_range": [
+        16,
+        25
+      ],
+      "type": "photo",
+      "start": 8.696,
+      "end": 13.597,
+      "text": "Eigentlich wollte der Bundeskanzler kommende Woche zur UN-Generalversammlung reisen.",
+      "query": "United Nations headquarters New York flags",
+      "search_queries": [
+        "United Nations headquarters New York flags",
+        "United Nations headquarters"
+      ],
+      "entity": "United Nations headquarters",
+      "entity_type": "place",
+      "entity_aliases": [
+        "UN headquarters",
+        "UN-Hauptquartier",
+        "United Nations"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "The United Nations headquarters in New York, ideally with the row of flags. Not the Statue of Liberty.",
+      "editor_note_ru": "Штаб-квартира ООН и флаги: цель отменённой поездки.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 3,
+      "word_range": [
+        25,
+        36
+      ],
+      "type": "photo",
+      "start": 13.597,
+      "end": 18.338,
+      "text": "Doch nach Angaben aus Regierungskreisen bleibt Merz in Berlin. Der Grund?",
+      "query": "Bundeskanzleramt Berlin exterior",
+      "search_queries": [
+        "Bundeskanzleramt Berlin exterior",
+        "Bundeskanzleramt"
+      ],
+      "entity": "Bundeskanzleramt",
+      "entity_type": "place",
+      "entity_aliases": [
+        "German Chancellery"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "Exterior of the actual German federal chancellery in Berlin.",
+      "editor_note_ru": "Берлинская канцелярия: Мерц остаётся в столице.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 4,
+      "word_range": [
+        36,
+        41
+      ],
+      "type": "photo",
+      "start": 18.338,
+      "end": 20.479,
+      "text": "Nach der Landtagswahl in Sachsen-Anhalt",
+      "query": "Landtag Sachsen-Anhalt Magdeburg Gebäude",
+      "search_queries": [
+        "Landtag Sachsen-Anhalt Magdeburg Gebäude",
+        "Landtag Sachsen-Anhalt"
+      ],
+      "entity": "Landtag Sachsen-Anhalt",
+      "entity_type": "place",
+      "entity_aliases": [
+        "Landtag von Sachsen-Anhalt",
+        "Landtag Sachsen Anhalt"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "The actual state parliament building in Magdeburg, Sachsen-Anhalt.",
+      "editor_note_ru": "Ландтаг Саксонии-Анхальт; не путать с Саксонией.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 4,
+      "word_range": [
+        41,
+        52
+      ],
+      "type": "video",
+      "start": 20.479,
+      "end": 25.24,
+      "text": "ist innerhalb der Union eine Debatte über seine politische Zukunft entstanden.",
+      "query": "Friedrich Merz CDU Pressekonferenz",
+      "search_queries": [
+        "Friedrich Merz CDU Pressekonferenz",
+        "Friedrich Merz"
+      ],
+      "entity": "Friedrich Merz",
+      "entity_type": "person",
+      "entity_aliases": [
+        "Merz"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "Merz himself answering questions or speaking at a CDU press conference. No other politician substituted for him.",
+      "editor_note_ru": "Политическая дискуссия о Мерце: он сам на пресс-конференции.",
+      "source_policy": [
+        "youtube",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": [],
+      "visual_fallbacks": [
+        {
+          "role": "photo",
+          "type": "photo",
+          "query": "Friedrich Merz CDU Pressekonferenz",
+          "search_mode": "exact",
+          "entity": "Friedrich Merz",
+          "entity_type": "person",
+          "entity_aliases": [
+            "Merz"
+          ],
+          "source_policy": [
+            "editorial",
+            "archive"
+          ],
+          "visual_intent": "Merz himself answering questions or speaking at a CDU press conference. No other politician substituted for him."
+        }
+      ]
+    },
+    {
+      "scene_id": 4,
+      "word_range": [
+        52,
+        61
+      ],
+      "type": "photo",
+      "start": 25.24,
+      "end": 28.441,
+      "text": "Und der Druck könnte schon am Sonntag weiter steigen.",
+      "query": "CDU Berlin Parteizentrale Logo",
+      "search_queries": [
+        "CDU Berlin Parteizentrale Logo",
+        "CDU"
+      ],
+      "entity": "CDU",
+      "entity_type": "organization",
+      "entity_aliases": [
+        "Christlich Demokratische Union"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "A real photograph of the CDU party logo or headquarters.",
+      "editor_note_ru": "Партийный контекст растущего давления, без отвлечённого стокового кадра.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 5,
+      "word_range": [
+        61,
+        64
+      ],
+      "type": "photo",
+      "start": 28.441,
+      "end": 29.961,
+      "text": "In Mecklenburg-Vorpommern und",
+      "query": "Schweriner Schloss Landtag Mecklenburg Vorpommern",
+      "search_queries": [
+        "Schweriner Schloss Landtag Mecklenburg Vorpommern",
+        "Schweriner Schloss"
+      ],
+      "entity": "Schweriner Schloss",
+      "entity_type": "place",
+      "entity_aliases": [
+        "Schwerin Castle",
+        "Landtag Mecklenburg-Vorpommern"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "Schwerin Castle, the seat of the Mecklenburg-Vorpommern parliament.",
+      "editor_note_ru": "Мекленбург — Передняя Померания: ландтаг в Шверине.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 5,
+      "word_range": [
+        64,
+        69
+      ],
+      "type": "photo",
+      "start": 29.961,
+      "end": 32.862,
+      "text": "Berlin stehen weitere Landtagswahlen an.",
+      "query": "Abgeordnetenhaus Berlin Gebäude",
+      "search_queries": [
+        "Abgeordnetenhaus Berlin Gebäude",
+        "Abgeordnetenhaus Berlin"
+      ],
+      "entity": "Abgeordnetenhaus Berlin",
+      "entity_type": "place",
+      "entity_aliases": [
+        "Berlin House of Representatives",
+        "Abgeordnetenhaus von Berlin"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "The Berlin House of Representatives building.",
+      "editor_note_ru": "Берлин: здание регионального парламента.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 6,
+      "word_range": [
+        69,
+        80
+      ],
+      "type": "video",
+      "start": 32.862,
+      "end": 39.064,
+      "text": "Am Mittwoch reagierten deshalb die acht CDU-Ministerpräsidenten mit einer gemeinsamen Erklärung.",
+      "query": "CDU Ministerpräsidenten Pressekonferenz",
+      "search_queries": [
+        "CDU Ministerpräsidenten Pressekonferenz",
+        "CDU"
+      ],
+      "entity": "CDU",
+      "entity_type": "organization",
+      "entity_aliases": [
+        "Christlich Demokratische Union"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "Real CDU press conference with party branding or CDU officials. Illustrative footage; no need to show all eight signatories.",
+      "editor_note_ru": "Совместная позиция CDU: реальная партийная пресс-конференция, не реконструкция заявления.",
+      "source_policy": [
+        "youtube",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": [],
+      "visual_fallbacks": [
+        {
+          "role": "photo",
+          "type": "photo",
+          "query": "CDU Ministerpräsidenten Pressekonferenz",
+          "search_mode": "exact",
+          "entity": "CDU",
+          "entity_type": "organization",
+          "entity_aliases": [
+            "Christlich Demokratische Union"
+          ],
+          "source_policy": [
+            "editorial",
+            "archive"
+          ],
+          "visual_intent": "Real CDU press conference with party branding or CDU officials. Illustrative footage; no need to show all eight signatories."
+        }
+      ]
+    },
+    {
+      "scene_id": 6,
+      "word_range": [
+        80,
+        86
+      ],
+      "type": "photo",
+      "start": 39.064,
+      "end": 42.87,
+      "text": "Ihre Botschaft? Deutschland brauche politische Stabilität",
+      "query": "Bundestag Plenarsaal Innenraum",
+      "search_queries": [
+        "Bundestag Plenarsaal Innenraum",
+        "Bundestag"
+      ],
+      "entity": "Bundestag",
+      "entity_type": "place",
+      "entity_aliases": [
+        "Deutscher Bundestag"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "The German Bundestag plenary chamber, a real photograph.",
+      "editor_note_ru": "Политическая стабильность: парламент Германии.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 6,
+      "word_range": [
+        86,
+        96
+      ],
+      "type": "photo",
+      "start": 42.87,
+      "end": 47.498,
+      "text": "und Vertrauen solle durch Zuhören und konkretes Handeln zurückgewonnen werden,",
+      "query": "Friedrich Merz Bürger Gespräch",
+      "search_queries": [
+        "Friedrich Merz Bürger Gespräch",
+        "Friedrich Merz"
+      ],
+      "entity": "Friedrich Merz",
+      "entity_type": "person",
+      "entity_aliases": [
+        "Merz"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "Merz talking with citizens or listening to people at a public meeting. Prefer interaction over an isolated portrait.",
+      "editor_note_ru": "Заявление о доверии и слушании: Мерц в общении с людьми.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 6,
+      "word_range": [
+        96,
+        100
+      ],
+      "type": "photo",
+      "start": 47.498,
+      "end": 50.523,
+      "text": "nicht durch neue Personaldiskussionen.",
+      "query": "CDU Präsidium Sitzung",
+      "search_queries": [
+        "CDU Präsidium Sitzung",
+        "CDU"
+      ],
+      "entity": "CDU",
+      "entity_type": "organization",
+      "entity_aliases": [
+        "Christlich Demokratische Union"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "A real CDU leadership meeting or politicians gathered at a party meeting.",
+      "editor_note_ru": "Кадр партийного обсуждения, а не стоковый офис.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 7,
+      "word_range": [
+        100,
+        104
+      ],
+      "type": "photo",
+      "start": 50.523,
+      "end": 52.626,
+      "text": "März begrüßte die Unterstützung.",
+      "query": "Friedrich Merz Porträt CDU",
+      "search_queries": [
+        "Friedrich Merz Porträt CDU",
+        "Friedrich Merz"
+      ],
+      "entity": "Friedrich Merz",
+      "entity_type": "person",
+      "entity_aliases": [
+        "Merz"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "A real photograph of Friedrich Merz, distinct from earlier shots.",
+      "editor_note_ru": "Мерц приветствует поддержку; иллюстративный портрет.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 7,
+      "word_range": [
+        104,
+        113
+      ],
+      "type": "photo",
+      "start": 52.626,
+      "end": 57.013,
+      "text": "Für Sonntagabend ist außerdem eine Sitzung der CDU-Spitze geplant.",
+      "query": "Konrad Adenauer Haus Berlin CDU Zentrale",
+      "search_queries": [
+        "Konrad Adenauer Haus Berlin CDU Zentrale",
+        "Konrad-Adenauer-Haus"
+      ],
+      "entity": "Konrad-Adenauer-Haus",
+      "entity_type": "place",
+      "entity_aliases": [
+        "Konrad Adenauer Haus",
+        "CDU-Zentrale"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "The CDU headquarters Konrad-Adenauer-Haus in Berlin.",
+      "editor_note_ru": "Штаб-квартира CDU к упоминанию заседания руководства.",
+      "source_policy": [
+        "editorial",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": []
+    },
+    {
+      "scene_id": 8,
+      "word_range": [
+        113,
+        127
+      ],
+      "type": "video",
+      "start": 57.013,
+      "end": 61.844898,
+      "text": "Damit wird das kommende Wahlwochenende auch für die weitere Debatte innerhalb der CDU wichtig.",
+      "query": "Bundestagswahl Wahllokal Stimmzettel Wahlurne",
+      "search_queries": [
+        "Bundestagswahl Wahllokal Stimmzettel Wahlurne",
+        "Bundestagswahl"
+      ],
+      "entity": "Bundestagswahl",
+      "entity_type": "event",
+      "entity_aliases": [
+        "Wahllokal",
+        "German election",
+        "Stimmzettel"
+      ],
+      "search_mode": "exact",
+      "match_policy": "illustrative",
+      "visual_intent": "Real voting in Germany: a ballot paper, polling booth or ballot box. No US or other-country election footage. This is illustrative voting footage, not the specific coming election.",
+      "editor_note_ru": "Итог: реальный процесс голосования в Германии, без подмены страной или заявлением о дате.",
+      "source_policy": [
+        "youtube",
+        "archive"
+      ],
+      "negative_keywords": [],
+      "required_terms": [],
+      "visual_fallbacks": [
+        {
+          "role": "photo",
+          "type": "photo",
+          "query": "Bundestagswahl Wahllokal Stimmzettel Wahlurne",
+          "search_mode": "exact",
+          "entity": "Bundestagswahl",
+          "entity_type": "event",
+          "entity_aliases": [
+            "Wahllokal",
+            "German election",
+            "Stimmzettel"
+          ],
+          "source_policy": [
+            "editorial",
+            "archive"
+          ],
+          "visual_intent": "Real voting in Germany: a ballot paper, polling booth or ballot box. No US or other-country election footage. This is illustrative voting footage, not the specific coming election."
+        }
+      ]
+    }
+  ],
+  "transitions": [],
+  "audio_tracks": []
+}
